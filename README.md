@@ -1,2 +1,2 @@
-# tauri-uiicons
-tauri-uiicons
+# tauri-plugin-uiicons
+
