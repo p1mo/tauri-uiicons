@@ -10,9 +10,25 @@ pub struct Config {
     /// Component settings for Javascript Element
     pub component : ConfigComponent,
     /// Icons to Download and Embed into the app
+    /// 
+    /// | IconSet           | Website                           | Github                                            |
+    /// |:------------------|:----------------------------------|:--------------------------------------------------|
+    /// | tabler            | https://tabler.io                 | https://github.com/tabler/tabler-icons            |
+    /// | simple-icons      | https://simpleicons.org           | https://github.com/simple-icons/simple-icons      |
+    /// | feather           | https://feathericons.com/         | https://github.com/feathericons/feather           |
+    /// | material-design   | https://fonts.google.com/icons    | https://github.com/google/material-design-icons   |
+    /// | lucide            | https://lucide.dev                | https://github.com/lucide-icons/lucide            |
+    /// | heroicons         | https://heroicons.com             | https://github.com/tailwindlabs/heroicons         |
+    /// | bootstrap         | https://icons.getbootstrap.com    | https://github.com/twbs/icons                     |
+    /// | remixicon         | https://remixicon.com             | https://github.com/Remix-Design/RemixIcon         |
+    /// | iconoir           | https://iconoir.com               | https://github.com/iconoir-icons/iconoir          |
+    /// | phosphor          | https://phosphoricons.com         | https://github.com/phosphor-icons/core            |
+    /// | thesvg            | https://thesvg.org                | https://github.com/glincker/thesvg                |
+    /// | devicons          | https://devicon.dev               | https://github.com/devicons/devicon               |
+    ///
     pub icons : Vec<ConfigIcon>,
 }
-
+ 
 #[derive(Default, serde::Deserialize, serde::Serialize, schemars::JsonSchema)]
 pub struct ConfigIcon {
     /// #### source of icons like "tabler-filled", "feather"
