@@ -1,11 +1,11 @@
 [package]
 name    = "tauri-uiicons"
 links   = "tauri-uiicons"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 description = "tauri plugin for ui svg icons"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/blockz-code/ffbins-rs"
+repository = "https://github.com/p1mo/tauri-uiicons"
 readme = "README.md"
 keywords = ["ui", "icons", "tauri", "js", "svg"]
 categories = ["development-tools"]
@@ -16,10 +16,6 @@ no-default-features = true
 features = [
   "build",
 ]
-
-[lints.rust]
-unsafe_code     = "forbid"
-unused          = "warn"
 
 [features]
 default = []
